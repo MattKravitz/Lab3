@@ -1,0 +1,77 @@
+p
+{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	background-color: black;
+}
+p.smallparagraph{
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	background-color: white;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+li{
+	color: white;
+	font-size: 35px;
+	border-style: solid;
+	border-color: black;
+	background-color: black;
+	border-width: 10px;
+}
+body{
+	background-image: url(http://eskipaper.com/images/hd-abstract-wallpapers-33.jpg);
+
+	text-align: center;
+
+}
+img {
+    width: 10%;
+    height: 10%;
+}
+img.slide{
+	width: 700px;
+    height: 700px;
+
+}
+a
+{
+    background-color: black;
+    color: white;
+	text-align: center;
+	padding: 5px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+a:hover
+{
+    background-color: red;
+    
+}
+
+iframe{
+
+	width:700px;
+	height: 400px;
+
+}
+button{
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 20%;
+	
+	padding: 0px;
+}
+button:hover{
+	background-color: red;
+
+
+}
