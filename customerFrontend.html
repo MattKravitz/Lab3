@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meow</title>
+	<script src="formChecker.js"></script>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+	
+	<img src = "mrbadass.jpg">
+
+    <form action = "customerBackend.php "id = "meow" method ="post">
+			
+			
+			
+			<p class = "head">PICK A DRINK</p>
+			
+			<p>Nukacola $9.00</p>
+            <input type="number" min = "0" value = "drink1" id = "nuke" name = "nuke">
+        
+            <p>Jugger-nog $12.50</p>
+            <input type="number" min = "0" value = "drink2" id = "jugg" name = "jugg">
+			
+			<p>Pap drink $10.00</p>
+            <input type="number" min = "0" value = "drink3" id = "pap" name = "pap">
+			
+			
+			
+			
+			<p class = "head">ENTER USERNAME AND PASSWORD</p>
+			
+            <p>UserName</p>
+            <input type="text"  id="username" name = "username">
+        
+            <p>Password</p>
+            <input type="password"  id="password" name = "password">
+			
+			<br><br>
+		
+			
+			<p class = "head">Types of Shipping</p>
+            <input type="Radio" name = "q1" value = "free" id = "ship1"><label> Free 7 Day </label></br></input>
+			<input type="Radio" name = "q1" value = "fifty" id = "ship2"><label> $50.00 </label></br></input>
+			<input type="Radio" name = "q1" value = "five" id = "ship3"><label> $5.00 </label></br></input>
+        
+			
+			<br><br>
+			<input class = "reset" type = "reset"></input>
+			<button onclick = "check()" > Submit </button> 
+			
+            
+        
+    </form> 	
+	
+	
+</body>
+</html>
